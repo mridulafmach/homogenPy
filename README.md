@@ -20,7 +20,7 @@ The pipeline relies mainly on numpy, scipy, skimage, argparse python modules. Th
 
 ## How to use it 
 
-All scripts run as command line argument. Since output files obtained from GetIonIntensity method will use as an input for other methods, hence it is important to run this script first. After that feature calculation can be done in any order. 
+All scripts run as command line argument. Output files obtained from GetIonIntensity method will use as an input for other methods, hence it is important to run this script first. After that feature calculation can be done in any order. 
 
 To get help about method, use -h argument. It will give details about input arguments, method function and other optional arguments. 
 ``` 
