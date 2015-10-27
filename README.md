@@ -8,7 +8,9 @@ The pipeline relies mainly on numpy, scipy, skimage, argparse python modules. Th
 
 1) *GetIonImage* : import and visualization of data from Analyze 7.5 format. This function offers ion intensity map at user defined mass range (.sim),  three different types of segmentation map :
 
-	a) drug mask(default, _drug.msk, drug mask.jpg) b) tic image mask (_tic.msk, _ticmsk.jpg)  c) maximum intensity value mask(_mim.msk, _mimmsk.jpg)
+	* drug mask(default, _drug.msk, drug mask.jpg) 
+	* tic image mask (_tic.msk, _ticmsk.jpg)  
+	* maximum intensity value mask(_mim.msk, _mimmsk.jpg)
  	 
 2) *GCLM_features* : This function will return 13 Haralick texture features based on gray-level co-occurence matrix for input image. Before features calculation, tissue image will multiple with corresponding mask image to place tissue object on uniform background. Hence results were obtained from tissue object only.
 
